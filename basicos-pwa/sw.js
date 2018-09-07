@@ -88,7 +88,6 @@ self.addEventListener('notificationclick', e => {
 
   if (e.action === 'Si') {
     console.log('AMO esta aplicación')
-    clients.openWindow('https://ed.team')
   } else if (e.action === 'No') {
     console.log('No me gusta esta aplicación')
   }
